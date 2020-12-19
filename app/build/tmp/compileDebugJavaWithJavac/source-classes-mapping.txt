@@ -1,0 +1,4 @@
+com/example/android/applicationlab/BuildConfig.java
+ com.example.android.applicationlab.BuildConfig
+com/example/android/applicationlab/MainActivity.java
+ com.example.android.applicationlab.MainActivity

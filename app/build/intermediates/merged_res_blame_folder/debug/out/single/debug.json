@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_app_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-hdpi\\app_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_app_foreground.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-mdpi\\app_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_app_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xhdpi\\app_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_app_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxxhdpi\\app_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_app_foreground.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xhdpi\\app_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-anydpi-v26\\app.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_app_foreground.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxxhdpi\\app_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\layout_signup.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\layout\\signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_background.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\drawable\\app_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_app_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxhdpi\\app_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_app_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-mdpi\\app_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_app_foreground.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxhdpi\\app_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_app_foreground.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-hdpi\\app_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\font\\montserrat.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_round.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-anydpi-v26\\app_round.xml"
+    }
+]
