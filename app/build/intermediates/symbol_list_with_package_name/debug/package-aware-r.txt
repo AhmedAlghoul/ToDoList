@@ -646,6 +646,8 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable app_background
+drawable backgroundcolor
+drawable edittextbackground
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -668,6 +670,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id accounttext
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -709,6 +712,7 @@ id clip_vertical
 id collapseActionView
 id content
 id contentPanel
+id createprofile
 id custom
 id customPanel
 id decor_content_parent
@@ -718,8 +722,9 @@ id direct
 id disableHome
 id editTextTextEmailAddress
 id editTextTextPassword
-id editTextTextPersonName
+id editTextTextPersonName2
 id edit_query
+id email
 id end
 id expand_activities_button
 id expanded_menu
@@ -745,6 +750,7 @@ id line1
 id line3
 id listMode
 id list_item
+id loginbutton
 id message
 id middle
 id multiply
@@ -757,6 +763,7 @@ id notification_main_column_container
 id packed
 id parent
 id parentPanel
+id password
 id percent
 id progress_circular
 id progress_horizontal
@@ -816,6 +823,7 @@ id topPanel
 id uniform
 id up
 id useLogo
+id welcome
 id withText
 id wrap
 id wrap_content
@@ -852,6 +860,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout login
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
