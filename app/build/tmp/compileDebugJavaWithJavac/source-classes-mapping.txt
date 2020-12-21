@@ -1,4 +1,12 @@
+com/example/android/applicationlab/SplashActivity.java
+ com.example.android.applicationlab.SplashActivity
+com/example/android/applicationlab/ListsActivity.java
+ com.example.android.applicationlab.ListsActivity
+com/example/android/applicationlab/SignupActivity.java
+ com.example.android.applicationlab.SignupActivity
 com/example/android/applicationlab/BuildConfig.java
  com.example.android.applicationlab.BuildConfig
+com/example/android/applicationlab/LoginActivity.java
+ com.example.android.applicationlab.LoginActivity
 com/example/android/applicationlab/MainActivity.java
  com.example.android.applicationlab.MainActivity
