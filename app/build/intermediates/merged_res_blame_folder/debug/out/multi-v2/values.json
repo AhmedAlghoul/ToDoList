@@ -118,11 +118,11 @@
                 {
                     "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "1,6,10,11,3,2,8,7,4",
+                        "startLines": "1,7,11,12,3,2,9,8,4",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "17,274,455,526,110,64,406,339,160",
+                        "startOffsets": "17,277,458,529,110,64,409,342,160",
                         "endColumns": "45,63,69,82,48,44,45,65,56",
-                        "endOffsets": "58,333,520,604,154,104,447,400,212"
+                        "endOffsets": "58,336,523,607,154,104,450,403,212"
                     },
                     "to": {
                         "startLines": "817,829,830,831,834,871,877,879,881",

@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.android.applicationlab.Search" />
+        <activity android:name="com.example.android.applicationlab.DailyListActivity" />
         <activity android:name="com.example.android.applicationlab.SplashActivity" />
         <activity android:name="com.example.android.applicationlab.SignupActivity" />
         <activity android:name="com.example.android.applicationlab.LoginActivity" />

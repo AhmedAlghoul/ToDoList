@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daily_list.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\layout\\activity_daily_list.xml"
+    },
+    {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
@@ -22,6 +26,10 @@
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_app.png.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xhdpi\\app.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto.ttf.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\font\\roboto.ttf"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -92,24 +100,24 @@
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-mdpi\\app_round.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_app_foreground.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxhdpi\\app_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_ios_24.xml.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_app_foreground.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxhdpi\\app_foreground.png"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle1.xml.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\drawable\\rectangle1.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_app.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-mdpi\\app.png"
-    },
-    {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_app.png.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-mdpi\\app.png"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_app.png.flat",
@@ -130,6 +138,10 @@
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\layout\\activity_search.xml"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_app_foreground.png.flat",
