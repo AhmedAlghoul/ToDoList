@@ -874,6 +874,7 @@ color material_on_primary_emphasis_medium
 color material_on_surface_disabled
 color material_on_surface_emphasis_high_type
 color material_on_surface_emphasis_medium
+color meet
 color mtrl_bottom_nav_colored_item_tint
 color mtrl_bottom_nav_colored_ripple_color
 color mtrl_bottom_nav_item_tint
@@ -1432,12 +1433,15 @@ drawable rectangle1
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable whitebackground
 font montserrat
 font roboto
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id Backbutton
 id CTRL
+id Email
 id FUNCTION
 id FirstFragment
 id META
@@ -1446,6 +1450,7 @@ id SYM
 id SecondFragment
 id TOP_END
 id TOP_START
+id YourName
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1511,7 +1516,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button2
 id buttonPanel
 id cancel_button
 id center
@@ -1551,10 +1555,8 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
-id editTextTextEmailAddress
+id edit
 id editTextTextPassword
-id editTextTextPersonName
-id editTextTextPersonName2
 id edit_query
 id email
 id end
@@ -1586,7 +1588,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageButton
 id imageView
 id imageView2
 id info
@@ -1600,6 +1601,8 @@ id line1
 id line3
 id listMode
 id list_item
+id listsToDo
+id login
 id loginbutton
 id logout
 id masked
@@ -1657,12 +1660,13 @@ id password
 id password_toggle
 id peekHeight
 id percent
-id personallist
 id pin
 id progress_circular
 id progress_horizontal
 id radio
 id recyclerView
+id register
+id result
 id right
 id right_icon
 id right_side
@@ -1676,6 +1680,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchView
 id search_badge
 id search_bar
 id search_button
@@ -1686,6 +1691,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id searchview2
 id select_dialog_listview
 id selected
 id shortcut
@@ -1731,12 +1737,17 @@ id textStart
 id textView
 id textView2
 id textView3
+id textView4
+id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
 id textinput_error
 id textinput_helper_text
-id thingstodo
 id time
 id title
 id titleDividerNoCustom
@@ -1754,6 +1765,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id viewTask
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -1828,6 +1840,7 @@ layout activity_login
 layout activity_search
 layout activity_signup
 layout activity_splash
+layout activity_view_task
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1901,6 +1914,8 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
+string Delete
+string Description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1936,6 +1951,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string edit
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -1946,6 +1962,7 @@ string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string logout
+string meet
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix

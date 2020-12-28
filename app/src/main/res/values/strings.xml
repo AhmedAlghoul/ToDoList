@@ -2,6 +2,12 @@
     <string name="app_name">ToDoList</string>
     <string name="next"><u>next</u></string>
     <string name="logout"><u>Logout</u></string>
+    <string name="edit">Edit</string>
+    <string name="Description">Description</string>
+    <string name="Delete">Delete</string>
+    <string name="meet">Meet</string>
+
+
     <string name="title_activity_signup">signup</string>>
 
     <!-- Strings used for fragments for navigation -->

@@ -8,7 +8,7 @@
     tools:context=".Search">
 
     <TextView
-        android:id="@+id/ViewTask"
+        android:id="@+id/listsToDo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -17,11 +17,11 @@
         android:textColor="@color/white"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toEndOf="@+id/Backbutton"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/Backbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -31,33 +31,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="336dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/edittextbackground"
-        android:drawableStart="@drawable/ic_baseline_search_24"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ViewTask" />
-
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
-        android:layout_marginTop="157dp"
+        android:layout_marginTop="55dp"
         android:text="Results :"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="335dp"
@@ -67,5 +52,18 @@
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="336dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittextbackground"
+        android:iconifiedByDefault="false"
+        android:searchIcon="@drawable/ic_baseline_search_24"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listsToDo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

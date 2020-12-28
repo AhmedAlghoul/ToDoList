@@ -12,17 +12,18 @@
         <activity android:name=".ViewTask"></activity>
         <activity android:name=".Search" />
         <activity android:name=".DailyListActivity" />
-        <activity android:name=".SplashActivity" />
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".ListsActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ListsActivity" />
+        <activity android:name=".MainActivity"/>
+
 
         <meta-data
             android:name="preloaded_fonts"

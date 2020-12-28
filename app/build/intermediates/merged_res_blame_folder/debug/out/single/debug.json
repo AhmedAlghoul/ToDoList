@@ -76,6 +76,10 @@
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-xxxhdpi\\app_foreground.png"
     },
     {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_task.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\layout\\activity_view_task.xml"
+    },
+    {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_background.xml.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\drawable\\app_background.xml"
     },
@@ -122,6 +126,10 @@
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_app.png.flat",
         "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\mipmap-hdpi\\app.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\drawable_whitebackground.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\src\\main\\res\\drawable\\whitebackground.xml"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\ApplicationLab\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",

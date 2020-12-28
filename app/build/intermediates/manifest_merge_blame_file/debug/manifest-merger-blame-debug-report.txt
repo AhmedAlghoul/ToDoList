@@ -11,7 +11,7 @@
 9-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:5:5-29:19
+11-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:5:5-31:19
 12        android:allowBackup="true"
 12-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,45 +28,48 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.android.applicationlab.Search" />
-21-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:12:9-53
-21-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:12:19-41
-22        <activity android:name="com.example.android.applicationlab.DailyListActivity" />
-22-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:13:9-55
-22-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:13:19-52
-23        <activity android:name="com.example.android.applicationlab.SplashActivity" />
-23-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:14:9-52
-23-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:14:19-49
-24        <activity android:name="com.example.android.applicationlab.SignupActivity" />
-24-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:15:9-52
+21        <activity android:name="com.example.android.applicationlab.ViewTask" />
+21-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:12:9-55
+21-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:12:19-43
+22        <activity android:name="com.example.android.applicationlab.Search" />
+22-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:13:9-44
+22-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:13:19-41
+23        <activity android:name="com.example.android.applicationlab.DailyListActivity" />
+23-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:14:9-55
+23-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:14:19-52
+24        <activity android:name="com.example.android.applicationlab.SplashActivity" >
+24-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:15:9-21:20
 24-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:15:19-49
-25        <activity android:name="com.example.android.applicationlab.LoginActivity" />
-25-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:16:9-51
-25-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:16:19-48
-26        <activity android:name="com.example.android.applicationlab.ListsActivity" />
-26-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:17:9-51
-26-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:17:19-48
-27        <activity android:name="com.example.android.applicationlab.MainActivity" >
-27-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:18:9-24:20
-27-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:18:19-47
-28            <intent-filter>
-28-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:20:17-69
-29-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:22:17-77
-31-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34
-35        <meta-data
-35-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:26:9-28:57
-36            android:name="preloaded_fonts"
-36-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:27:13-43
-37            android:resource="@array/preloaded_fonts" />
-37-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:28:13-54
-38    </application>
-39
-40</manifest>
+25            <intent-filter>
+25-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.android.applicationlab.SignupActivity" />
+31-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:22:9-52
+31-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:22:19-49
+32        <activity android:name="com.example.android.applicationlab.LoginActivity" />
+32-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:23:9-51
+32-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:23:19-48
+33        <activity android:name="com.example.android.applicationlab.ListsActivity" />
+33-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:24:9-51
+33-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:24:19-48
+34        <activity android:name="com.example.android.applicationlab.MainActivity" />
+34-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:25:9-49
+34-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:25:19-47
+35
+36        <meta-data
+36-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:28:9-30:57
+37            android:name="preloaded_fonts"
+37-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:29:13-43
+38            android:resource="@array/preloaded_fonts" />
+38-->C:\Users\HP\AndroidStudioProjects\ApplicationLab\app\src\main\AndroidManifest.xml:30:13-54
+39    </application>
+40
+41</manifest>
