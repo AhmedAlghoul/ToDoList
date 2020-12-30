@@ -7,7 +7,7 @@
     android:background="@drawable/backgroundcolor"
     tools:context=".DailyListActivity">
 
-    <EditText
+    <Button
         android:id="@+id/createtask"
         android:layout_width="336dp"
         android:layout_height="34dp"
@@ -37,13 +37,13 @@
         app:layout_constraintStart_toEndOf="@+id/Backbutton"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
+        android:onClick="onClickBack"
         android:id="@+id/Backbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="35.2dp"
-        android:background="@drawable/ic_baseline_arrow_back_ios_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
@@ -63,12 +63,14 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_width="335dp"
-        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginTop="28dp"
-        android:layout_marginRight="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/activity_task_item"
+        tools:itemCount="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/createtask"
+        app:layout_constraintStart_toStartOf="@+id/createtask"
         app:layout_constraintTop_toBottomOf="@+id/createtask" />
 
     <ImageView

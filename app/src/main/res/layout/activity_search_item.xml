@@ -6,7 +6,7 @@
     android:layout_height="50dp"
     android:layout_gravity="center_horizontal"
     android:background="@drawable/itembackground"
-    tools:context=".SearchItemActivity">
+  >
 
     <CheckBox
         android:id="@+id/checkBox2"

@@ -6,21 +6,34 @@
     android:layout_height="match_parent"
     android:background="@drawable/backgroundcolor"
     tools:context=".ListsActivity">
+
     <EditText
         android:id="@+id/createtask"
         android:layout_width="336dp"
         android:layout_height="34dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/edittextbackground"
-        android:drawableStart="@drawable/ic_baseline_add_24"
-        android:ems="10"
+        android:gravity="start|center_vertical"
         android:hint="Create new list here "
-        android:inputType="textPersonName"
+        android:paddingStart="40dp"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:background="@drawable/edittextbackground"
+        android:drawableStart="@drawable/ic_baseline_add_24"
+        android:gravity="center"
+        android:onClick="createTask"
+        android:paddingStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/createtask"
+        app:layout_constraintStart_toStartOf="@+id/createtask"
+        app:layout_constraintTop_toTopOf="@+id/createtask" />
 
     <TextView
         android:id="@+id/logout"
@@ -29,6 +42,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginRight="6dp"
         android:fontFamily="@font/roboto"
+        android:onClick="logout"
         android:text="@string/logout"
         android:textColor="@color/white"
         android:textSize="18sp"
@@ -56,6 +70,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="35.2dp"
         android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:onClick="back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
@@ -75,11 +90,12 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/lists_rv"
-        android:layout_width="335dp"
-        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/createtask"
+        app:layout_constraintStart_toStartOf="@+id/createtask"
         app:layout_constraintTop_toBottomOf="@+id/createtask" />
 
     <SearchView
@@ -89,6 +105,7 @@
         android:layout_marginTop="12dp"
         android:background="@drawable/edittextbackground"
         android:iconifiedByDefault="false"
+        android:queryBackground="@null"
         android:searchIcon="@drawable/ic_baseline_search_24"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
