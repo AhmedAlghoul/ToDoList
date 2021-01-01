@@ -1,21 +1,34 @@
 package com.example.android.applicationlab;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
 public class LoginActivity extends AppCompatActivity {
-TextView createprofile;
-Button loginbutton;
+    TextView createprofile;
+    Button loginbutton;
+    EditText email, password;
+    FirebaseAuth FirebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        email = findViewById(R.id.email);
+        password = findViewById(R.id.password);
+        FirebaseAuth=FirebaseAuth.getInstance();
 
         createprofile = findViewById(R.id.createprofile);
         loginbutton = findViewById(R.id.loginbutton);
@@ -28,55 +41,24 @@ Button loginbutton;
                 startActivity(intent);
             }
         });
-        loginbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, ListsActivity.class);
-                startActivity(intent);
-            }
-        });
-//
-//        et_Email = findViewById(R.id.et_Email);
-//        et_Password = findViewById(R.id.et_Password);
-//        pc_loading = findViewById(R.id.pc_loading);
-//
-//        Button btn_Login = findViewById(R.id.btn_Login);
-//        btn_Login.setOnClickListener(view -> {
-//            Helpers.HideKeyboard(LoginActivity.this);
-//
-//            String email = et_Email.getText().toString().trim();
-//            String password = et_Password.getText().toString().trim();
-//            if (email.isEmpty()) {
-//                et_Email.setError("Please enter email");
-//                return;
-//            }
-//            if (password.isEmpty()) {
-//                et_Password.setError("Please enter password");
-//                return;
-//            }
-//            pc_loading.bringToFront();
-//            pc_loading.setVisibility(View.VISIBLE);
-//            btn_Login.setEnabled(false);
-//            firebaseAuth.signInWithEmailAndPassword(email, password)
-//                    .addOnCompleteListener(this, task -> {
-//                        pc_loading.setVisibility(View.GONE);
-//                        btn_Login.setEnabled(true);
-//                        if (task.isSuccessful()) {
-//                            Toast.makeText(LoginActivity.this, "Logged in successfully", Toast.LENGTH_SHORT).show();
-//                            Intent intent = new Intent(LoginActivity.this, ListsActivity.class);
-//                            startActivity(intent);
-//                            finish();
-//                        } else {
-//                            Toast.makeText(LoginActivity.this, "Error: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-//                        }
-//                    });
-//        });
-//
-//        TextView tv_register = findViewById(R.id.tv_register);
-//        tv_register.setOnClickListener(view -> {
-//            Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-//            startActivity(intent);
-//            finish();
-//        });
     }
+
+    public void login(View view) {
+        (FirebaseAuth.signInWithEmailAndPassword(email.getText().toString(), password.getText().toString()))
+                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            Intent intent = new Intent(LoginActivity.this, ListsActivity.class);
+                            startActivity(intent);
+                        } else {
+                            Log.e("Error", task.getException().toString());
+                            Toast.makeText(LoginActivity.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });
+    }
+
+
+
 }
