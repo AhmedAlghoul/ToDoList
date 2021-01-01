@@ -51,9 +51,7 @@ public class ListsAdapter extends RecyclerView.Adapter<ListsAdapter.ItemViewHold
         @SuppressLint("SetTextI18n")
         public void bind(final ListItem item) {
             list_title.setText(item.getTitle());
-            if (item.getTasks()!=null){
                 number.setText((item.getNumber())+" tasks");
-            }
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

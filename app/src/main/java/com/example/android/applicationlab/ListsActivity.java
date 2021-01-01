@@ -25,6 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListsActivity extends AppCompatActivity {
+    private static DatabaseReference mRef;
     RecyclerView lists_rv;
     EditText createTask;
     public static ListsAdapter listAdapter;
@@ -153,10 +154,40 @@ public class ListsActivity extends AppCompatActivity {
         String userId = FirebaseAuth.getInstance().getUid();
         assert userId != null;
         mDatabase.child("User").child(userId).child("Task").child(task.id).setValue(task);
+
+        mRef = mDatabase.child("User").child(userId).child("ListItem").child(task.listId).child("number");
+        mRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                int num = Integer.parseInt(snapshot.getValue().toString());
+                mRef.setValue(num + 1);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {}
+        });
     }
 
     public static void deleteTaskFromFirebase(Task task) {
-        DatabaseReference taskRef = FirebaseDatabase.getInstance().getReference().child("User").child(FirebaseAuth.getInstance().getUid()).child("Task").child(task.getId());
+        String userId = FirebaseAuth.getInstance().getUid();
+        assert userId != null;
+
+        try {
+            mRef = mDatabase.child("User").child(userId).child("ListItem").child(task.listId).child("number");
+            mRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    int num = Integer.parseInt(snapshot.getValue().toString());
+                    if(num > 0)
+                    mRef.setValue(num - 1);
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                }
+            });
+        }catch (Exception e){}
+        DatabaseReference taskRef = FirebaseDatabase.getInstance().getReference().child("User").child(userId).child("Task").child(task.getId());
         taskRef.removeValue();
 
     }

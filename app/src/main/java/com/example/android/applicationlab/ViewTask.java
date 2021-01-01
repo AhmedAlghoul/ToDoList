@@ -98,4 +98,6 @@ public class ViewTask extends AppCompatActivity {
         setResult(20, intent);
 
     }
-}
+
+
+    }

@@ -138,6 +138,7 @@ public class DailyListActivity extends AppCompatActivity {
                 tasks.remove(i);
             }
 
+
         }
             ListsActivity.deleteTaskFromFirebase(tasks.get(i));
         }
