@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -131,18 +132,20 @@ public class DailyListActivity extends AppCompatActivity {
     }
 
     public void deleteSetOfTasks(View view) {
-        for (int i=0;i<tasks.size();i++){
-        for (int j=0;j<tasksToDelete.size();j++) {
-            if (tasks.get(i).getId().equals(tasksToDelete.get(j))) {
-                tasksToDelete.remove(j);
-                tasks.remove(i);
-            }
-
-
-        }
-            ListsActivity.deleteTaskFromFirebase(tasks.get(i));
-        }
-        tasksAdapter=new TasksAdapter(this,tasks);
-        recyclerView.setAdapter(tasksAdapter);
+//        for (int i=0;i<tasks.size();i++){
+//        for (int j=0;j<tasksToDelete.size();j++) {
+//            if (tasks.get(i).getId().equals(tasksToDelete.get(j))) {
+//                tasksToDelete.remove(j);
+//                tasks.remove(i);
+//            }
+//
+//
+//        }
+//            ListsActivity.deleteTaskFromFirebase(tasks.get(i));
+//        }
+//        tasksAdapter=new TasksAdapter(this,tasks);
+//        recyclerView.setAdapter(tasksAdapter);
+        ListsActivity.deleteListFromFirebase(ListsActivity.currentListId);
+        finish();
     }
 }

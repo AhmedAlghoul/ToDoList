@@ -11,16 +11,13 @@ com/example/android/applicationlab/Task.java
  com.example.android.applicationlab.Task$1
 com/example/android/applicationlab/MainActivity.java
  com.example.android.applicationlab.MainActivity
-com/example/android/applicationlab/SearchAdapter.java
- com.example.android.applicationlab.SearchAdapter
- com.example.android.applicationlab.SearchAdapter$ItemViewHolder
+com/example/android/applicationlab/BuildConfig.java
+ com.example.android.applicationlab.BuildConfig
 com/example/android/applicationlab/SignupActivity.java
  com.example.android.applicationlab.SignupActivity
  com.example.android.applicationlab.SignupActivity$1
  com.example.android.applicationlab.SignupActivity$1$1
  com.example.android.applicationlab.SignupActivity$2
-com/example/android/applicationlab/BuildConfig.java
- com.example.android.applicationlab.BuildConfig
 com/example/android/applicationlab/ListsActivity.java
  com.example.android.applicationlab.ListsActivity
  com.example.android.applicationlab.ListsActivity$1
@@ -28,10 +25,7 @@ com/example/android/applicationlab/ListsActivity.java
  com.example.android.applicationlab.ListsActivity$3
  com.example.android.applicationlab.ListsActivity$4
  com.example.android.applicationlab.ListsActivity$5
-com/example/android/applicationlab/LoginActivity.java
- com.example.android.applicationlab.LoginActivity
- com.example.android.applicationlab.LoginActivity$1
- com.example.android.applicationlab.LoginActivity$2
+ com.example.android.applicationlab.ListsActivity$6
 com/example/android/applicationlab/ViewTask.java
  com.example.android.applicationlab.ViewTask
 com/example/android/applicationlab/DailyListActivity.java
@@ -43,6 +37,13 @@ com/example/android/applicationlab/TasksAdapter.java
  com.example.android.applicationlab.TasksAdapter$ItemViewHolder$1
  com.example.android.applicationlab.TasksAdapter$ItemViewHolder$2
  com.example.android.applicationlab.TasksAdapter$OnClickTask
+com/example/android/applicationlab/SearchAdapter.java
+ com.example.android.applicationlab.SearchAdapter
+ com.example.android.applicationlab.SearchAdapter$ItemViewHolder
+com/example/android/applicationlab/LoginActivity.java
+ com.example.android.applicationlab.LoginActivity
+ com.example.android.applicationlab.LoginActivity$1
+ com.example.android.applicationlab.LoginActivity$2
 com/example/android/applicationlab/ListsAdapter.java
  com.example.android.applicationlab.ListsAdapter
  com.example.android.applicationlab.ListsAdapter$ItemViewHolder

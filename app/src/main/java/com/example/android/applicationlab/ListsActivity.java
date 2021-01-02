@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -164,7 +165,8 @@ public class ListsActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCancelled(@NonNull DatabaseError error) {}
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
         });
     }
 
@@ -178,18 +180,41 @@ public class ListsActivity extends AppCompatActivity {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     int num = Integer.parseInt(snapshot.getValue().toString());
-                    if(num > 0)
-                    mRef.setValue(num - 1);
+                    if (num > 0)
+                        mRef.setValue(num - 1);
                 }
 
                 @Override
                 public void onCancelled(@NonNull DatabaseError error) {
                 }
             });
-        }catch (Exception e){}
+        } catch (Exception e) {
+        }
         DatabaseReference taskRef = FirebaseDatabase.getInstance().getReference().child("User").child(userId).child("Task").child(task.getId());
         taskRef.removeValue();
 
+    }
+
+    public static void deleteListFromFirebase(String list) {
+        String userId = FirebaseAuth.getInstance().getUid();
+        assert userId != null;
+        String listId = list;
+        try {
+            mDatabase.child("User").child(userId).child("ListItem").child(listId).removeValue();
+            mDatabase.child("User").child(userId).child("Task").orderByChild("listId").equalTo(listId).addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                        dataSnapshot.getRef().removeValue();
+                    }
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                }
+            });
+        } catch (Exception e) {
+        }
     }
 
     private void filter(String text) {
